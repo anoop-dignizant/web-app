@@ -8,7 +8,7 @@ export const api = axios.create({
 });
 
 export const getUserss = async (): Promise<User[]> => {
-    const response = await api.get('/userssss');
+    const response = await api.get('/users');
     return response.data;
 };
 
