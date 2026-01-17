@@ -7,8 +7,8 @@ export const api = axios.create({
     baseURL: API_URL,
 });
 
-export const getUsers = async (): Promise<User[]> => {
-    const response = await api.get('/users');
+export const getUserss = async (): Promise<User[]> => {
+    const response = await api.get('/userssss');
     return response.data;
 };
 
